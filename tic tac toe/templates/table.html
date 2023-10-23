@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 50%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+
+        .joint-box {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <tr>
+        <td class="joint-box" colspan="1"></td>
+        <td class="joint-box" colspan="2">toothache</td>
+        <td class="joint-box" colspan="2">~toothache</td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>catch</td>
+        <td>~catch</td>
+        <td>catch</td>
+        <td>~catch</td>
+    </tr>
+    <tr>
+        <td>cavity</td>
+        <td>0.108</td>
+        <td>0.012</td>
+        <td>0.072</td>
+        <td>0.008</td>
+    </tr>
+    <tr>
+        <td>~cavity</td>
+        <td>0.016</td>
+        <td>0.064</td>
+        <td>0.144</td>
+        <td>0.576</td>
+    </tr>
+</table>
+
+</body>
+</html>
